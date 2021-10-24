@@ -1,0 +1,2 @@
+# Pipe Tunes
+Pipe Tunes is a collection of bagpipe tunes produced using Audovia which uses JFugue MusicString notation to let you make music with up to fifteen instrumental voices and a percussion track.  Notes within a MusicString are specified by their name and duration.  Durations can be expressed as pulses where 32 pulses represents a quarter note (crotchet).  An 'E' quarter note preceded by a 'G' gracenote can be written as [G]/1 [E]/31. 
