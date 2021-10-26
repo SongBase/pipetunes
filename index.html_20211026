@@ -42,13 +42,9 @@
       span.caption {color: #551A8B;  font-family: Open Sans; font-size: 16px;}
       span.part {color: #551A8B; cursor: pointer; font-family: Open Sans; font-size: 16px;}
       span.text {color: #555555; font-family: Open Sans; font-size: 16px; line-height: 1.5;}
-      @media all and (max-width:900px) {
-      .big-menu {display:none;}
-      .small-menu {display:block;}
-      }
-      @media all and (min-width:900px) {
-	  .big-menu {display:block;}
-	  .small-menu {display:none;}
+      @media all and (max-width: 900px) {
+      .banner {
+      display: none;
       }
     </style>
   </head>
@@ -65,22 +61,12 @@
       </div>
     </div>
 
-    <div class="big-menu" style="width: 80%; margin: auto; margin-top: 40px; text-align: center; background: linear-gradient(to right, #8000ff, white, white, white, #8000ff);">
+    <div class="banner" style="width: 80%; margin: auto; margin-top: 40px; text-align: center; background: linear-gradient(to right, #8000ff, white, white, white, #8000ff);">
     <span class="text"> <hr style="height:1px;border-width:0;color:grey;background-color:grey">
     <a href="index.html" style="text-decoration:none;"><b>Light Music</b></a>&nbsp;&nbsp;&nbsp;
     <a href="piobaireachd.html" style="text-decoration:none;">Piobaireachd</a>&nbsp;&nbsp;&nbsp;
     <a href="https://www.facebook.com/groups/pipetunes" style="text-decoration:none;" target="_blank" rel="noopener noreferrer">Facebook Group</a>&nbsp;&nbsp;&nbsp;
     <a href="https://www.ceolsean.net/" style="text-decoration:none;" target="_blank" rel="noopener noreferrer">Ceol Sean</a>
-    <hr style="height:1px;border-width:0;color:grey;background-color:grey">
-    </span>
-    </div>
-
-    <div class="small-menu" style="width: 80%; margin: auto; margin-top: 40px; text-align: center; background: linear-gradient(to right, #8000ff, white, white, white, #8000ff);">
-    <span class="text"> <hr style="height:1px;border-width:0;color:grey;background-color:grey">
-    <a href="index.html" style="text-decoration:none;"><b>Light Music</b></a>&nbsp;&nbsp;&nbsp;
-    <a href="piobaireachd.html" style="text-decoration:none;">Piobaireachd</a>
- <!--   <a href="https://www.facebook.com/groups/pipetunes" style="text-decoration:none;" target="_blank" rel="noopener noreferrer">Facebook Group</a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.ceolsean.net/" style="text-decoration:none;" target="_blank" rel="noopener noreferrer">Ceol Sean</a> -->
     <hr style="height:1px;border-width:0;color:grey;background-color:grey">
     </span>
     </div>
